@@ -25,6 +25,7 @@
         class="el-input__inner"
         v-bind="$attrs"
         :type="type"
+        :placeholder="placeholder"
         :disabled="inputDisabled"
         :autocomplete="autoComplete"
         :value="currentValue"
